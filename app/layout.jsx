@@ -1,6 +1,6 @@
 import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
-import Header from "./components/Header";
+// import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 // import { Analytics } from "@vercel/analytics";
 
@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={jetbrainsMono.variable}>
-        <Header />
+        {/* <Header /> */}
         {children}
         <Navbar />
       </body>
