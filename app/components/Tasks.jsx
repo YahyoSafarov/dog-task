@@ -87,21 +87,21 @@ const tasks = [
   },
 ];
 
-const rewards = [
-  {
-    id: 1,
-    src: <BsStars />,
-    desc: "Account age",
-    price: "+2000 DOGS",
-  },
+// const rewards = [
+//   {
+//     id: 1,
+//     src: <BsStars />,
+//     desc: "Account age",
+//     price: "+2000 DOGS",
+//   },
 
-  {
-    id: 2,
-    src: <GoStarFill />,
-    desc: "Telegram Premium",
-    price: "+2000 DOGS",
-  },
-];
+//   {
+//     id: 2,
+//     src: <GoStarFill />,
+//     desc: "Telegram Premium",
+//     price: "+2000 DOGS",
+//   },
+// ];
 
 const Tasks = () => {
   return (
@@ -149,7 +149,7 @@ const Tasks = () => {
               </h1>
             </div>
 
-            <div className="flex flex-col justify-between gap-5">
+            {/* <div className="flex flex-col justify-between gap-5">
               {rewards.map((items, index) => {
                 return (
                   <div key={index}>
@@ -161,9 +161,7 @@ const Tasks = () => {
                         <p className="text-white text-[18px] font-medium">
                           {items.desc}
                         </p>
-                        {/* <p className="text-[15px] text-white/50 font-medium">
-                          {items.title}
-                        </p> */}
+                     
                       </div>
 
                       <div className="">
@@ -175,7 +173,7 @@ const Tasks = () => {
                   </div>
                 );
               })}
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
